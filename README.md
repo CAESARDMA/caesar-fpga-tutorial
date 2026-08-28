@@ -1,5 +1,16 @@
 <div align="center">
 
+<img src="images/caesar-logo.jpg" width="130">
+
+# CAESAR FPGA Development Tutorial
+
+### Build FPGA Firmware with Xilinx Vivado
+
+**FPGA · PCIe · HDL · Verilog · Firmware · Hardware Research**
+
+</div>
+<div align="center">
+
 # CAESAR FPGA Development Tutorial
 
 ### Build FPGA Firmware with Xilinx Vivado
