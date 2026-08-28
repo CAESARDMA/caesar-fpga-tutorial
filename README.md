@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/caesar-logo.jpg" width="130">
+<img src="images/caesar-logo.jpg" width="105">
 
 # CAESAR FPGA Development Tutorial
 
@@ -8,21 +8,15 @@
 
 **FPGA · PCIe · HDL · Verilog · Firmware · Hardware Research**
 
-</div>
-<div align="center">
+<br>
 
-# CAESAR FPGA Development Tutorial
+[![Website](https://img.shields.io/badge/WEBSITE-CAESAR_DMA-00D9C7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://caesardma.store/)
+[![Discord](https://img.shields.io/badge/DISCORD-JOIN_CAESAR-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/uqwZJg2RQ)
 
-### Build FPGA Firmware with Xilinx Vivado
+<br><br>
 
-FPGA • PCIe • HDL • Verilog • Firmware • Hardware Research
-
----
-
-A practical open-source tutorial for learning FPGA firmware development,
-PCIe endpoint design, synthesis, implementation and bitstream generation.
-
-[Discord](#community) • [Website](https://caesardma.store)
+*A practical open-source guide to FPGA firmware development,  
+PCIe hardware and Xilinx Vivado.*
 
 </div>
 
@@ -30,26 +24,36 @@ PCIe endpoint design, synthesis, implementation and bitstream generation.
 
 ## About
 
-**CAESAR FPGA Tutorial** is an educational project created for developers who want to understand how FPGA firmware is designed and built using **Xilinx Vivado**.
+**CAESAR FPGA Development Tutorial** is a practical learning project focused on FPGA firmware development and PCIe hardware engineering.
 
-Instead of only providing finished firmware, this repository explains the complete development workflow—from creating a Vivado project to generating a production-ready FPGA bitstream.
+The goal of this repository is to explain the complete FPGA development process — from creating a Vivado project and writing HDL to synthesis, implementation and generating the final FPGA bitstream.
+
+This project is designed for developers who want to better understand how FPGA firmware projects are structured and built.
 
 ---
 
-## What You'll Learn
+## What You Will Learn
 
-| Topic | Status |
-|--------|--------|
-| Vivado Installation | ✅ |
-| FPGA Project Creation | 🔄 |
-| Verilog / SystemVerilog | 🔄 |
-| PCIe Endpoint Design | 🔄 |
-| BAR Configuration | 🔄 |
-| PCIe TLP Fundamentals | 🔄 |
-| Synthesis & Implementation | 🔄 |
-| Timing Analysis | 🔄 |
-| Bitstream Generation | 🔄 |
-| FPGA Programming | 🔄 |
+This tutorial covers:
+
+- Xilinx Vivado installation and setup
+- Creating a new FPGA project
+- FPGA device selection
+- Verilog / SystemVerilog basics
+- FPGA project structure
+- PCIe endpoint fundamentals
+- PCIe BAR configuration
+- PCIe TLP fundamentals
+- Clock and reset design
+- FPGA constraints
+- Synthesis
+- Implementation
+- Timing analysis
+- Bitstream generation
+- BIN firmware generation
+- FPGA programming
+- Vivado Hardware Manager
+- ILA debugging
 
 ---
 
@@ -71,6 +75,9 @@ PCIe Endpoint
 BAR Configuration
       │
       ▼
+TLP Fundamentals
+      │
+      ▼
 Synthesis
       │
       ▼
@@ -80,74 +87,10 @@ Implementation
 Timing Analysis
       │
       ▼
-Generate Firmware
-```
-
----
-
-## Repository Structure
-
-```text
-caesar-fpga-tutorial/
-│
-├── docs/
-│   ├── 01-install-vivado.md
-│   ├── 02-create-project.md
-│   ├── 03-verilog-basics.md
-│   ├── 04-pcie-endpoint.md
-│   ├── 05-bar-configuration.md
-│   ├── 06-pcie-tlp.md
-│   ├── 07-synthesis.md
-│   ├── 08-implementation.md
-│   ├── 09-bitstream.md
-│   └── 10-programming.md
-│
-├── src/
-├── constraints/
-├── scripts/
-└── images/
-```
-
----
-
-## Supported FPGA Platforms
-
-- Artix-7 35T
-- Artix-7 75T
-- Artix-7 100T
-- ZDMA Platforms
-- Custom PCIe FPGA Boards
-
----
-
-## Why This Project?
-
-Most FPGA repositories provide source code but very little explanation.
-
-This project focuses on **teaching the engineering process** behind FPGA firmware development through practical examples, diagrams and complete Vivado workflows.
-
----
-
-## Community
-
-Join the **CAESAR** community for FPGA development discussions, hardware support and project updates.
-
-**Discord:** *Coming Soon*
-
----
-
-## Disclaimer
-
-This repository is intended for FPGA education, hardware research and interoperability development.
-
-Always ensure your projects comply with applicable laws, hardware policies and software licenses.
-
----
-
-<div align="center">
-
-**Developed by CAESAR**
-
-FPGA • PCIe • Hardware Engineering
-
-</div>
+Generate Bitstream
+      │
+      ▼
+Generate BIN Firmware
+      │
+      ▼
+Program FPGA
